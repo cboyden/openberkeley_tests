@@ -32,7 +32,7 @@ class WysiwygSubContext extends BehatContext implements DrupalSubContextInterfac
    */
   public function iSelectTheTextInTheEditor($editorFrame='edit-body-und-0-value_ifr', $editorType='tinymce') {
     /*
-     * @todo : 
+     * @todo :
      * Figure out how to run non-headless;
      * Allow for more than one WYSIWYG field on a page;
      * Allow for only a subset of the text to be selected;
@@ -61,7 +61,7 @@ class WysiwygSubContext extends BehatContext implements DrupalSubContextInterfac
     $this->getSession()->executeScript($javascript);
   }
 
-  
+
   /**
    * Get the instance variable to use in Javascript.
    *

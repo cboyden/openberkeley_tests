@@ -2,7 +2,7 @@ Feature: Add map widget
   In order to put a map on a page
   As a site builder
   I need to be able to use the map widget
- 
+
   @api @javascript
   Scenario: Add map to a page
     Given I am logged in as a user with the "builder" role

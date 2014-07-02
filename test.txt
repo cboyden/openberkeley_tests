@@ -9,7 +9,7 @@ Setup
  1. Install Composer
 
     php -r "eval('?>'.file_get_contents('https://getcomposer.org/installer'));"
- 
+
  2. Install Behat and dependencies via Composer
 
     php composer.phar install
@@ -17,7 +17,7 @@ Setup
  3. Copy behat.template.yml to behat.yml
 
     mv behat.template.yml behat.yml
- 
+
  4. Edit behat.yml: change base_url and drush alias parameters to your local values
 
  5. Download the latest version of Selenium Server from http://docs.seleniumhq.org/download/ to /usr/local/lib

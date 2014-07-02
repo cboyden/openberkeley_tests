@@ -2,7 +2,7 @@ Feature: Add text widget
   In order to put additional text on a page (beyond the main content)
   As a site administrator
   I need to be able to add a text widget
- 
+
   @api @javascript
   Scenario: Add text to a page
     Given I am logged in as a user with the "builder" role

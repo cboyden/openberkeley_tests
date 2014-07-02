@@ -2,7 +2,7 @@ Feature: Add content list widget
   In order to create a list of certain content
   As a site builder
   I need to be able to add a list with the content I choose
- 
+
   @api @javascript
   Scenario: Add a content list
     Given I am logged in as a user with the "builder" role
