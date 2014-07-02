@@ -2,7 +2,7 @@ Feature: Add links widget
   In order to add a list with links
   As a site administrator
   I need to be able to use the links widget
- 
+
   @api @javascript
   Scenario: Add links
     Given I am logged in as a user with the "builder" role
@@ -19,7 +19,7 @@ Feature: Add links widget
       And I click "Add links" in the "CTools modal" region
     Then I should see "Configure new Add links"
     When I fill in the following:
-      | title                                  | Testing link title  |      
+      | title                                  | Testing link title  |
       | field_quick_links_links[und][0][title] | Testing url title   |
       | field_quick_links_links[und][0][url]   | http://drupal.org   |
       And I press "edit-return"

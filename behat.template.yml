@@ -11,9 +11,9 @@ default:
   extensions:
     Behat\MinkExtension\Extension:
       selenium2: ~
-      # change this: 
+      # change this:
       base_url: http://${drupal.uri}
-      goutte: 
+      goutte:
       #if using acquia dev desktop only; otherwise ~
         guzzle_parameters:
           curl.options:

@@ -37,7 +37,7 @@ class FeatureContext extends DrupalContext
     $this->useContext('wysiwyg', new WysiwygSubContext());
     $this->params = $parameters;
   }
-  
+
   public function login() {
     // Check if logged in.
     if ($this->loggedIn()) {
@@ -156,7 +156,7 @@ class FeatureContext extends DrupalContext
     }
     throw new \Exception(sprintf('The text "%s" was not found in the "%s" element in the "%s" region on the page %s', $text, $tag, $region, $this->getSession()->getCurrentUrl()));
   }
-  
+
   /**
    * @Then /^I should not see "([^"]*)" in the "([^"]*)" element in the "([^"]*)" region$/
    */

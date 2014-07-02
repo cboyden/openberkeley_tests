@@ -2,7 +2,7 @@ Feature: Add content item
   In order to put in a particular content item on a page
   As a site administrator
   I need to be able to choose which content item
- 
+
   @api @javascript
   Scenario: Add content item
     Given I am logged in as a user with the "builder" role
